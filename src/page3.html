@@ -1,56 +1,208 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./output.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <section class="bg-[#666666] py-[50px] px-[20px] text-white">
-        <header class="flex gap-[30px] items-center max-w-[1200px] m-auto justify-between">
-            <div>
-                <img src="./images/Logo.png" alt="">
-            </div>
-            <button class="p-[15px] border border-white gap-[200px] rounded-2xl text-[14px] font-[250] text-white hidden lg:flex">Search bar
-                <div>
-                    <img src="./images/Search.png" alt="">
-                </div>
-            </button>
-            <div class="hidden lg:flex gap-[20px]">
-                <p class="font-bold">Category</p>
-                <p class="font-[600]">Become an Mentor</p>
-            </div>
-            <div class="flex gap-[10px]">
-                <button class="border border-white py-[10px] px-[20px] rounded-[10px] hidden lg:block">Login</button>
-                <button class="bg-[#F72585] py-[10px] px-[35px] rounded-[10px]">Sign Up</button>
-            </div>
-        </header>
-        <section class="my-[50px] flex flex-col gap-[35px] max-w-[1200px] m-auto">
-           <p class="text-2xl font-bold lg:text-5xl">How to become an Expert Web Developer</p>
-           <div class="flex gap-[20px] items-center">
-             <div>
-                <img src="./images/Rating.png" alt="">
-             </div>
-             <p class="font-bold text-[18px] lg:text-2xl">4,7/5</p>
-             <p class="text-[#E5E5E5] text-[10px] lg:text-[14px]">(1023 Reviews)</p>
-             <p class="text-[#E5E5E5] text-[10px] lg:text-[14px]">20327 Student</p>
-           </div>
-           <div class=" flex gap-[20px] items-center">
-            <div class="h-[50px] w-[50px] bg-[#AAAAAA] rounded-[50%]"></div>
-            <p class="text-[20px] font-bold lg:text-2xl">Pak Arif Satria Kecek ulalala</p>
-           </div>
-           <div class=" flex gap-[20px]">
-            <button class="flex gap-[12px] bg-[#F72585] font-bold py-[10px] px-[30px] rounded-[10px] h-[55px]">
-                <p>Add To Wishlist <span class="text-[20px]">+</span></p>
-            </button>
-            <button class="text-[#F72585] bg-white py-[10px] px-[25px] flex gap-[12px] h-[52px] items-center rounded-[10px] font-bold">Share
-                <div><img src="./images/share.png" alt=""></div>
-            </button>
-           </div>
-        </section>
+      <header
+        class="flex gap-[30px] items-center max-w-[1200px] m-auto justify-between"
+      >
+        <div>
+          <img src="./images/Logo.png" alt="" />
+        </div>
+        <button
+          class="p-[15px] border border-white gap-[200px] rounded-2xl text-[14px] font-[250] text-white hidden lg:flex"
+        >
+          Search bar
+          <div>
+            <img src="./images/Search.png" alt="" />
+          </div>
+        </button>
+        <div class="hidden lg:flex gap-[20px]">
+          <p class="font-bold">Category</p>
+          <p class="font-[600]">Become an Mentor</p>
+        </div>
+        <div class="flex gap-[10px]">
+          <button
+            class="border border-white py-[10px] px-[20px] rounded-[10px] hidden lg:block"
+          >
+            Login
+          </button>
+          <button class="bg-[#F72585] py-[10px] px-[35px] rounded-[10px]">
+            Sign Up
+          </button>
+        </div>
+      </header>
+      <section class="my-[50px] flex flex-col gap-[35px] max-w-[1200px] m-auto">
+        <p class="text-2xl font-bold lg:text-5xl">
+          How to become an Expert Web Developer
+        </p>
+        <div class="flex gap-[20px] items-center">
+          <div>
+            <img src="./images/Rating.png" alt="" />
+          </div>
+          <p class="font-bold text-[18px] lg:text-2xl">4,7/5</p>
+          <p class="text-[#E5E5E5] text-[10px] lg:text-[14px]">
+            (1023 Reviews)
+          </p>
+          <p class="text-[#E5E5E5] text-[10px] lg:text-[14px]">20327 Student</p>
+        </div>
+        <div class="flex gap-[20px] items-center">
+          <div class="h-[50px] w-[50px] bg-[#AAAAAA] rounded-[50%]"></div>
+          <p class="text-[20px] font-bold lg:text-2xl">
+            Pak Arif Satria Kecek ulalala
+          </p>
+        </div>
+        <div class="flex gap-[20px]">
+          <button
+            class="flex gap-[12px] bg-[#F72585] font-bold py-[10px] px-[30px] rounded-[10px] h-[55px]"
+          >
+            <p>Add To Wishlist <span class="text-[20px]">+</span></p>
+          </button>
+          <button
+            class="text-[#F72585] bg-white py-[10px] px-[25px] flex gap-[12px] h-[52px] items-center rounded-[10px] font-bold"
+          >
+            Share
+            <div><img src="./images/share.png" alt="" /></div>
+          </button>
+        </div>
+      </section>
     </section>
-    
-</body>
+
+    <main>
+      <section class="px-[20px] my-[50px] max-w-[1200px] m-auto flex flex-col lg:flex-row gap-[50px] items-center">
+        <div class="flex flex-col gap-[50px] lg:gap-[120px]">
+          <div class="text-[#808080] flex flex-col gap-[35px]">
+            <p class="text-black font-bold text-[22px] lg:text-[32px]">
+              What you’ll learn from this course
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+              eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum
+              a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis
+              non id proin elit placerat. Lectus morbi amet et aliquam magna
+              mauris. Proin pulvinar fringilla nunc, tristique urna, massa,
+              tincidunt.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+              eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum
+              a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis
+              non id proin elit placerat. Lectus morbi amet et aliquam magna
+              mauris. Proin pulvinar fringilla nunc, tristique urna, massa,
+              tincidunt.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+              eu in orci, nunc amet libero. Nam scelerisque vestibulum bibendum
+              a turpis. Ante feugiat lectus massa, odio amet. Auctor sit mattis
+              non id proin elit placerat
+            </p>
+          </div>
+          <div>
+            <p class="text-black font-bold text-[22px] lg:text-[32px]">
+              Objectives Features
+            </p>
+            <div class="my-[40px] bg-[#FFF5F9] p-[30px] rounded-[10px] grid gap-[20px] lg:grid-cols-2">
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Build fully websites and web apps for your startup or business.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Build fully websites and web apps for your startup or business.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Build fully websites and web apps for your startup or business.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Build fully websites and web apps for your startup or business.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Build fully websites and web apps for your startup or business.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Craft a portfolio of websites to apply for junior developer jobs.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Craft a portfolio of websites to apply for junior developer jobs.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Craft a portfolio of websites to apply for junior developer jobs.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Craft a portfolio of websites to apply for junior developer jobs.</p>
+              </div>
+              <div class="flex gap-[5px]">
+                <i class="fa-solid text-[#F72585] fa-check"></i>
+                <p class="text-[#1C3554] text-[15px]">Craft a portfolio of websites to apply for junior developer jobs.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div>
+           <div class="bg-[#666666] h-[320px] lg:w-[440px] flex justify-center items-center">
+              <div>
+                <img src="./images/play_circle_filled_white.png" alt="">
+              </div>
+           </div>
+           <div class="lg:w-[440px] border border-[#CCCCCC] p-[25px] flex flex-col gap-[30px]">
+            <div class="flex gap-[20px] items-center">
+                <p class="font-bold text-[32px]">$53</p>
+                <p class="text-2xl text-[#CCCCCC] line-through">$124</p>
+            </div>
+            <hr class="text-[#CCCCCC]">
+            <div class=" flex justify-between items-center">
+                <p class="font-[500] text-[20px] lg:text-2xl">64 Document <br> courses</p>
+                <button class="bg-[#EF233C] text-white font-bold rounded-[10px] p-[12px]">50% OFF</button>
+            </div>
+            <div class="grid grid-cols-2 justify-between gap-[20px]">
+                <div class="flex items-center gap-[5px]">
+                    <div class="bg-[#4586D6] w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"><img src="./images/Check.png" alt=""></div>
+                    <p class="font-[500]">24 Modules</p>
+                </div>
+                <div class="flex items-center gap-[5px]">
+                    <div class="bg-[#4586D6] w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"><img src="./images/Check.png" alt=""></div>
+                    <p class="font-[500]">12 exercises</p>
+                </div>
+                <div class="flex items-center gap-[5px]">
+                    <div class="bg-[#4586D6] w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"><img src="./images/Check.png" alt=""></div>
+                    <p class="font-[500]">Full time access</p>
+                </div>
+                <div class="flex items-center gap-[5px]">
+                    <div class="bg-[#4586D6] w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"><img src="./images/Check.png" alt=""></div>
+                    <p class="font-[500]">Certificate</p>
+                </div>
+                <div class="flex items-center gap-[5px]">
+                    <div class="bg-[#4586D6] w-[30px] h-[30px] flex items-center justify-center rounded-[50%]"><img src="./images/Check.png" alt=""></div>
+                    <p class="font-[500]">20 resources</p>
+                </div>
+
+            </div>
+            <button class="bg-[#F72585] rounded-[10px] font-[500] text-white py-[15px] px-[30px]">Add To Cart</button>
+            <button class="py-[15px] px-[30px] border border-[#F72585] rounded-[10px] text-[#F72585] font-[500]">Buy Now</button>
+           </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
