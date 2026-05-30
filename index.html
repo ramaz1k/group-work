@@ -7,12 +7,233 @@
     <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    <section >
-
-
-
+    <header class="max-w-350 m-auto p-[30px] flex items-center justify-between">
+        <div class="flex gap-[30px] items-center">
+            <div>
+                <img src="./Images/Logo (11).png" alt="">
+            </div>
+            <div>
+                <input type="search" class="w-[170px] lg:w-[400px] border-[1px] border-solid border-[grey] h-[50px] rounded-[10px]">
+            </div>
+        </div>
+        <nav class="flex hidden lg:flex gap-[10px] items-center">
+            <a href="./index.html">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Detali</a>
+            <a href="#">BLog</a>
+            <a href="#">Accaount</a>
+        </nav>
+        <div>   
+            <button class="w-[111px] h-[48px] border-[1px] border-solid border-[#1C3554] text-[#1C3554] rounded-[8px]">Login</button>
+            <button class="w-[129px] h-[48px] bg-[#F72585] rounded-[8px] text-[white]">Sign up</button>
+        </div>
+    </header>
+    <section class="py-[60px] md:py-[100px] bg-[black] max-w-350 m-auto">
+        <div class="max-w-[1200px] mx-auto px-[16px] grid grid-cols-1 md:grid-cols-2 gap-[40px] items-center">
+            <div class="text-white">
+                <h1 class="text-[36px] md:text-[56px] font-bold leading-[1.2] mb-[24px]">Find the Best Courses and Amazing Mentor</h1>
+                <p class="text-[#94a3b8] text-[16px] md:text-[18px] mb-[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus</p>
+                <div class="bg-white p-[8px] rounded-[12px] flex flex-col sm:flex-row gap-[8px] max-w-[500px] mb-[40px]">
+                    <input type="text" placeholder="Type in the course you want to learn" class="flex-1 px-[16px] py-[12px] text-dark text-[16px] rounded-[8px] outline-none bg-transparent">
+                    <button class="bg-brand text-white font-medium px-[24px] py-[12px] rounded-[8px] text-[16px]">Search</button>
+                </div>
+                <div class="flex flex-wrap gap-[24px] text-[14px] md:text-[16px] text-[#94a3b8]">
+                    <div class="flex items-center gap-[8px]">
+                        <span class="w-[6px] h-[6px] bg-brand rounded-full"></span>
+                        <span>Life Time Acces</span>
+                    </div>
+                    <div class="flex items-center gap-[8px]">
+                        <span class="w-[6px] h-[6px] bg-brand rounded-full"></span>
+                        <span>Expert Mentor</span>
+                    </div>
+                    <div class="flex items-center gap-[8px]">
+                        <span class="w-[6px] h-[6px] bg-brand rounded-full"></span>
+                        <span>100K+ Courses</span>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <div class="w-full max-w-[450px] aspect-[4/5] bg-[#cbd5e1] rounded-[24px]"></div>
+            </div>
+        </div>
     </section>
+    <section class="max-w-[1200px] mx-auto px-[16px] ">
+        
+        <h2 class="text-[32px] md:text-[48px] font-bold text-center text-[#1e293b] mb-[32px]">Trending Courses</h2>
+        
+        <div class="flex flex-wrap justify-center gap-[12px] mb-[40px]">
+            <button class="bg-brand text-white font-medium px-[24px] py-[10px] rounded-[8px] text-[16px]">All</button>
+            <button class="bg-white text-[#475569] font-medium px-[24px] py-[10px] rounded-[8px] text-[16px] border border-[#e2e8f0]">Business</button>
+            <button class="bg-white text-[#475569] font-medium px-[24px] py-[10px] rounded-[8px] text-[16px] border border-[#e2e8f0]">Art & Design</button>
+            <button class="bg-white text-[#475569] font-medium px-[24px] py-[10px] rounded-[8px] text-[16px] border border-[#e2e8f0]">Development</button>
+            <button class="bg-white text-[#475569] font-medium px-[24px] py-[10px] rounded-[8px] text-[16px] border border-[#e2e8f0]">Marketing</button>
+        </div>
 
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-[24px] mb-[48px]">
+            
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">UI/UX Design</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">Interpersonal Skills - Work Better With Others!</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$384</span>
+                </div>
+            </div>
 
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">Web Developer</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">How To Become An Expert Web Developer</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$735</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">UX Research</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">User Experience Design Essentials</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$826</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">3D Design</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">Creating 3D Modelling In Blender</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$710</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">Public Speaking</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">Interpersonal Skills - Work Better With Others!</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$384</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">UI/UX Design</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">How To Become An Expert Web Developer</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$758</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">3D Design</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">Creating 3D Modelling In Blender</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$973</span>
+                </div>
+            </div>
+
+            <div class="bg-white text-dark rounded-[16px] p-[16px] border border-[#e2e8f0] flex flex-col justify-between">
+                <div>
+                    <div class="w-full aspect-[4/3] bg-[#cbd5e1] rounded-[12px] mb-[16px] relative flex items-end justify-start p-[12px]">
+                        <span class="bg-[#3b82f6] text-white text-[12px] font-semibold px-[12px] py-[6px] rounded-[6px]">UI/UX Design</span>
+                    </div>
+                    <h3 class="text-[16px] font-bold mb-[8px] text-[#0f172a] line-clamp-2">Interpersonal Skills - Work Better With Others!</h3>
+                    <div class="text-[12px] text-brand font-medium mb-[8px]">Tanah Air Team</div>
+                    <div class="flex items-center gap-[4px] text-[14px] text-[#eab308] mb-[12px]">
+                        <span>★★★★★</span>
+                        <span class="text-[#64748b] text-[12px]">(2078)</span>
+                    </div>
+                </div>
+                <div class="flex items-center gap-[8px]">
+                    <span class="text-[#94a3b8] text-[14px] line-through">$640</span>
+                    <span class="text-[20px] font-bold text-[#0f172a]">$273</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="flex justify-center">
+            <button class="bg-brand text-white font-medium px-[32px] py-[14px] rounded-[8px] text-[16px]">More Courses</button>
+        </div>
+    </section>
+    <section class="max-w-[1200px] mx-auto px-[16px]">
+        <h2 class="text-[32px] md:text-[48px] font-bold text-[#0f172a] mb-[40px] text-center md:text-left">Top Categories</h2>
+        
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-[16px] md:gap-[24px]">
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+            <div class="bg-[#5e5e5e] aspect-[4/5] rounded-[16px] border border-[#4a4a4a]"></div>
+        </div>
+    </section> 
 </body>
 </html>
