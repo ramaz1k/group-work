@@ -1,16 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./src/output.css">
+    <title>Account</title>
+    <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
+    <section class="pb-[200px] bg-[#666666] lg:h-[500px]">
+
+        <header class="w-full h-auto lg:h-[120px] lg: flex justify-center items-center bg-[#666666]">
+            <div class="w-full p-5 lg:w-[1300px] flex justify-between items-center flex-col lg:flex-row gap-[20px]">
+                <div class="w-full lg:w-[161px] flex justify-between items-center">
+                    <img class="w-[161px] h-[32px]" src="../Images/Logo (22).png" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-[30px] h-[30px] lg:hidden text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </div>
+                <div
+                    class="hidden lg:flex w-[443px] h-[48px] rounded-[8px] border border-white px-[16px] items-center justify-between">
+                    <input type="text" class="text-white" placeholder="Search bar">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-[24px] h-[24px] text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                </div>
+                <select class="hidden lg:flex w-[102px] h-[32px] border-none bg-none text-white font-bold text-[16px]">
+                    <option>Category</option>
+                </select>
+                <a href="#" class="hidden lg:block text-white font-bold">Become an Mentor</a>
+                <div class="flex gap-[50px] lg:gap-[30px] text-white items-center ">
+                    <div class="w-[50px] bg-[#AAAAAA] h-[50px] rounded-4xl ">
+
+
+                    </div>
+                    <div>
+                        Romadhon@gmail.com
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+    </section>
+    <main>
+        <div class="min-h-screen bg-gray-50 py-10 px-4 font-sans antialiased">
+            <div class="mx-auto max-w-[1300px]">
+
+                <div class="mb-12 flex flex-col items-center gap-6 sm:flex-row sm:items-start">
+                    <div class="h-24 w-24 shrink-0 rounded-full bg-gray-300 sm:h-28 sm:w-28"></div>
+
+                    <div class="text-center sm:text-left">
+                        <h1 class="text-2xl font-bold text-slate-800 sm:text-3xl">Romadhona Syarifuddin</h1>
+                        <p class="mt-1 text-sm font-medium text-gray-400">Full Stack Web Designer</p>
+                    </div>
+                </div>
+
+                <div
+                    class="mb-10 flex justify-center border-b border-gray-200 text-base font-semibold text-gray-400 sm:justify-start gap-8 sm:gap-14">
+                    <button class="border-b-4 border-pink-500 pb-4 text-slate-800">My Courses</button>
+                    <button class="pb-4 hover:text-slate-600 transition-colors">Wishlist</button>
+                    <button class="pb-4 hover:text-slate-600 transition-colors">My Certificate</button>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 md:gap-6 lg:grid-cols-4">
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    UI/UX Design
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    Interpersonal Skills - Work Better With Others!
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$384</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    Web Developer
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    How To Become An Expert Web Developer
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$735</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    UX Research
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    User Experience Design Essentials
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$826</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    3D Design
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    Creating 3D Modelling In Blender
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$710</span>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    UI/UX Design
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    Interpersonal Skills - Work Better With Others!
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$384</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    Web Developer
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    How To Become An Expert Web Developer
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$735</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    UX Research
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    User Experience Design Essentials
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$826</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    3D Design
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    Creating 3D Modelling In Blender
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$710</span>
+                        </div>
+                    </div>
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    UI/UX Design
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    Interpersonal Skills - Work Better With Others!
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$384</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    Web Developer
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    How To Become An Expert Web Developer
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$735</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    UX Research
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    User Experience Design Essentials
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$826</span>
+                        </div>
+                    </div>
+
+                    <div
+                        class="flex flex-col justify-between rounded-2xl bg-white p-3 shadow-md shadow-gray-200/80 transition-shadow hover:shadow-xl sm:p-4">
+                        <div>
+                            <div class="relative aspect-[4/3] w-full rounded-xl bg-gray-300">
+                                <span
+                                    class="absolute -bottom-2 left-4 rounded-md bg-blue-500 px-2.5 py-1 text-[10px] font-semibold text-white sm:text-xs">
+                                    3D Design
+                                </span>
+                            </div>
+                            <div class="mt-5">
+                                <h3
+                                    class="line-clamp-2 text-xs font-bold text-slate-800 sm:text-sm md:text-base min-h-[2rem] sm:min-h-[2.5rem]">
+                                    Creating 3D Modelling In Blender
+                                </h3>
+                                <p class="mt-1.5 text-[10px] font-medium text-pink-500 sm:text-xs">Tanah Air Team</p>
+                                <div class="mt-2 flex items-center gap-1">
+                                    <div class="flex text-amber-400 text-xs sm:text-sm">★★★★★</div>
+                                    <span class="text-[10px] font-medium text-gray-400 sm:text-xs">(2078)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4 flex items-baseline gap-2">
+                            <span class="text-xs text-gray-300 line-through sm:text-sm">$640</span>
+                            <span class="text-base font-extrabold text-blue-900 sm:text-xl">$710</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        
+    </footer>
 
 
 
 
-    
+
 </body>
+
 </html>
