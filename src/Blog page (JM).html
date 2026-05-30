@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog.page</title>
+    <link rel="stylesheet" href="./output.css">
 </head>
 <body>
-    
+    <header class="w-full h-auto lg:h-[120px] flex justify-center items-center bg-[#666666]">
+        <div class="w-full p-5 lg:w-[1300px] flex justify-between items-center flex-col lg:flex-row gap-[20px]">
+            <div class="w-full lg:w-[161px] flex justify-between items-center">
+                <img class="w-[161px] h-[32px]" src="../Images/Logo (22).png" alt="">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[30px] h-[30px] lg:hidden text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </div>
+            <div class="hidden lg:flex w-[443px] h-[48px] rounded-[8px] border border-white px-[16px] items-center justify-between">
+                <input type="text" class="text-white" placeholder="Search bar">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-[24px] h-[24px] text-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </div>
+            <select class="hidden lg:flex w-[102px] h-[32px] border-none bg-none text-white font-bold text-[16px]"><option>Category</option></select>
+            <a href="#" class="hidden lg:block text-white font-bold">Become an Mentor</a>
+            <div class="flex gap-[50px] lg:gap-[30px]">
+                <button class="w-[111px] h-[48px] border border-white rounded-[8px] flex justify-center items-center text-white font-bold text-[16px]">Login</button>
+                <button class="w-[111px] h-[48px] bg-[#F72585] rounded-[8px] flex justify-center items-center text-white font-bold text-[16px]">Sign Up</button>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
